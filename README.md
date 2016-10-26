@@ -1,4 +1,4 @@
-# NodeJs
+# Node.js
 
 This a simple web application with Node.js, I decided to do this because I have interest in this kind of technology and I believe
 
