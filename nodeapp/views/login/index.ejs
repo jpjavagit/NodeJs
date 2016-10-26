@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login</title>
+
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    </head>
+
+        <body>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h3>Node Login Page</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                  <div class="col-xs-12">
+                    <form name="loginForm" class="form-horizontal" action="/dologin" method="POST">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="form-group">
+						                            <label for="login" class="col-sm-2 control-label">E-mail</label>
+                						            <div class="col-sm-3">
+                							            <input type="text" class="form-control" name='user[email]' id="login" placeholder="Your E-mail">
+                						            </div>
+					                      </div>
+                                <div class="form-group">
+        						                    <label for="senha" class="col-sm-2 control-label">Password</label>
+                						            <div class="col-sm-3">
+                							            <input type="password" class="form-control" name='user[password]' id="senha" placeholder="Your Password">
+                						            </div>
+        					              </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-md-1">
+                                        <button type="submit"  class="btn btn-success">Logar</button>
+                                    </div>
+                                    <div>
+                                        <a class="link" href="/createuser">Criar Usuario</a>
+                                    </div>
+          					            </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </body>
+  </html>
